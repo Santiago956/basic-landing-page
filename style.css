@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+header, .hero, footer {
+    background-color: #1F2937;
+}
+
+header {
+    font-size: 24px;
+    color: #F9FAF8;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+header h3 {
+    margin: 10px 0 0 200px;
+}
+header p {
+    margin-right: 200px;
+    display: flex;
+    gap: 50px;
+}
+header a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.hero {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    display: flex;
+    padding: 100px 200px;
+    justify-content: space-between;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    width:80vh;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 10px;
+}
+
+.hero button {
+    width: 90px;
+    height: 30px;
+    border-radius: 8px;
+    padding: 1;
+    color: #F9FAF8;
+    font-weight: bold;
+    background-color: #3882F6;
+    border-color: #3882F6;;
+}
+
+.hero img {
+    width: 500px;
+    height: 327px;
+
+}
+
+.images {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.images figcaption {
+    font-size: 18px;
+    
+}
