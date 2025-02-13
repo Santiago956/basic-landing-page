@@ -45,6 +45,7 @@ header a {
     display: flex;
     padding: 100px 200px;
     justify-content: space-between;
+    
 }
 
 .text {
@@ -81,9 +82,114 @@ header a {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
+    display: flex;
+    flex-flow: column;
+
+}
+
+.images h2 {
+    text-align: center;
+    padding: 70px 200px;
+}
+
+.blocks {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.images img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    border: solid 4px #3882F6;
+}
+
+figure {
+    text-align: center;
+    padding-bottom: 50px;
 }
 
 .images figcaption {
     font-size: 18px;
+    text-align: center;
+    color: #545b66;
+    max-width: 300px;
     
+}
+
+.quote {
+    background-color:#E5E7EB ;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+    padding: 100px 200px;
+}
+
+.quote p {
+    padding: 0 50px 0 50px;
+}
+
+.author {
+    color: #1F2937;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: bold;
+    display: flex;
+    justify-content: end;
+}
+
+.final {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    color: #E5E7EB;
+    height: 280px;
+}
+.call {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    width: 1000px;
+    height: 70px;
+    border-radius: 10px;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.call_text {
+    flex-direction: column;
+}
+
+.call button {
+    width: 90px;
+    height: 30px;
+    border-radius: 8px;
+    padding: 1;
+    color: #F9FAF8;
+    font-weight: bold;
+    background-color: #3882F6;
+    border-color: #F9FAF8;
+}
+
+#p1 {
+    font-weight: 900;
+    font-size: 20px;
+}
+
+#p2 {
+    font-size: 15px;
+}
+
+footer {
+    height: 90px;
+    color: #F9FAF8;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
