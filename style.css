@@ -23,8 +23,10 @@ header {
     justify-content: space-between;
 }
 
-header h3 {
+header img {
     margin: 10px 0 0 200px;
+    width: 50px;
+    height: 50px;
 }
 header p {
     margin-right: 200px;
@@ -97,6 +99,7 @@ header a {
     flex-flow: row wrap;
     justify-content: center;
     gap: 25px;
+    padding-bottom: 90px;
 }
 
 .images img {
@@ -125,7 +128,7 @@ figure {
     font-weight: light;
     font-style: italic;
     color: #1F2937;
-    padding: 100px 200px;
+    padding: 150px 200px;
 }
 
 .quote p {
@@ -148,6 +151,7 @@ figure {
     justify-content: center;
     color: #E5E7EB;
     height: 280px;
+    padding: 20px 0;
 }
 .call {
     background-color: #3882F6;
